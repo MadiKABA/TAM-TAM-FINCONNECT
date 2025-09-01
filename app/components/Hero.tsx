@@ -53,7 +53,7 @@ export default function Hero() {
                     <div className="flex flex-col md:flex-row gap-4">
                         <a
                             href="#inscription"
-                            className="bg-[#4B2C20] hover:bg-[#C9A646] text-white px-6 py-3 rounded-xl font-semibold transition"
+                            className="bg-[#C9A646] hover:bg-[#C9A646] text-black px-6 py-3 rounded-xl font-semibold transition"
                         >
                             Réserver ma place (Entrepreneur)
                         </a>

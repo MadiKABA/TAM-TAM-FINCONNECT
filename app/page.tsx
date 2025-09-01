@@ -1,6 +1,7 @@
 import ApprocheSection from "./components/ApprocheSection";
 import DefiSection from "./components/DefiSection";
 import EventSection from "./components/EventSection";
+import FooterSection from "./components/FooterSection";
 import Hero from "./components/Hero";
 import PartenairesSection from "./components/PartenairesSection";
 import ReservationSection from "./components/ReservationSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <VisionnairesSection />
       <PartenairesSection />
       <ReservationSection />
+      <FooterSection />
     </main>
 
   );

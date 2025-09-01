@@ -7,7 +7,7 @@ export default function ReservationSection() {
     const [role, setRole] = useState("entrepreneur");
 
     return (
-        <section className="relative py-24 px-6 bg-gradient-to-b from-black via-[#111111] to-black text-white overflow-hidden">
+        <section id="inscription" className="relative py-24 px-6 bg-gradient-to-b from-black via-[#111111] to-black text-white overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-[500px] h-[500px] bg-[#C9A646]/10 rounded-full blur-3xl"></div>
             </div>
@@ -85,8 +85,8 @@ export default function ReservationSection() {
                                     type="button"
                                     onClick={() => setRole("entrepreneur")}
                                     className={`flex-1 px-4 py-3 rounded-lg font-semibold transition ${role === "entrepreneur"
-                                            ? "bg-[#C9A646] text-[#0D0D0D]"
-                                            : "bg-[#0D0D0D] border border-[#C9A646]/50 text-white hover:bg-[#C9A646]/20"
+                                        ? "bg-[#C9A646] text-[#0D0D0D]"
+                                        : "bg-[#0D0D0D] border border-[#C9A646]/50 text-white hover:bg-[#C9A646]/20"
                                         }`}
                                 >
                                     Entrepreneur
@@ -95,8 +95,8 @@ export default function ReservationSection() {
                                     type="button"
                                     onClick={() => setRole("investisseur")}
                                     className={`flex-1 px-4 py-3 rounded-lg font-semibold transition ${role === "investisseur"
-                                            ? "bg-[#C9A646] text-[#0D0D0D]"
-                                            : "bg-[#0D0D0D] border border-[#C9A646]/50 text-white hover:bg-[#C9A646]/20"
+                                        ? "bg-[#C9A646] text-[#0D0D0D]"
+                                        : "bg-[#0D0D0D] border border-[#C9A646]/50 text-white hover:bg-[#C9A646]/20"
                                         }`}
                                 >
                                     Investisseur
