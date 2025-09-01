@@ -40,7 +40,8 @@ export default function Hero() {
             {/* Contenu principal */}
             <div className="relative z-10 container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 text-white">
                 {/* Bloc gauche : Texte & CTA */}
-                <div className="flex flex-col justify-center text-center md:text-left">
+                <div className="flex flex-col px-6 justify-center text-center md:text-left pt-16 sm:pt-20 md:pt-24 lg:pt-0">
+
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-[#F5E6D3] mb-6 drop-shadow-lg">
                         TAM TAM FINCONNECT
                     </h1>
