@@ -3,6 +3,7 @@ import DefiSection from "./components/DefiSection";
 import EventSection from "./components/EventSection";
 import Hero from "./components/Hero";
 import SolutionSection from "./components/SolutionSection";
+import VisionnairesSection from "./components/VisionnairesSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <DefiSection />
       <SolutionSection />
       <ApprocheSection />
+      <VisionnairesSection />
     </main>
 
   );
