@@ -7,21 +7,24 @@ export default function DefiSection() {
         <section
             className="relative py-20 px-6 text-[#5D3010] overflow-hidden"
             style={{
-                backgroundImage: "url('/hero-bg.jpg')", // Remplace par ton image
+                backgroundImage: "url('/hero-bg.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
             }}
         >
+            {/* Filtre semi-transparent cohérent */}
+            <div className="absolute inset-0 bg-[#F5DEC4]/70 backdrop-blur-sm"></div>
+
             {/* Motifs subtils animés */}
-            <div className="absolute inset-0">
+            <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute w-72 h-72 bg-white/10 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
                 <div className="absolute w-48 h-48 bg-white/10 rounded-full bottom-[-40px] right-[-30px] animate-ping-slower"></div>
             </div>
 
             <div className="container relative z-10 mx-auto max-w-6xl">
                 {/* Titre */}
-                <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-16 text-white drop-shadow-lg">
+                <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-16 text-[#5D3010]">
                     Un Océan de Talents, un Désert de Capital
                 </h2>
 
@@ -31,9 +34,7 @@ export default function DefiSection() {
                     <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105">
                         <div className="flex items-center gap-3 mb-4">
                             <Users size={28} />
-                            <h3 className="text-xl font-bold">
-                                Une Demande Explosive
-                            </h3>
+                            <h3 className="text-xl font-bold">Une Demande Explosive</h3>
                         </div>
                         <p className="text-[#5D3010] text-sm leading-relaxed">
                             Depuis 2018, plus de{" "}
@@ -54,9 +55,7 @@ export default function DefiSection() {
                         </div>
                         <p className="text-[#5D3010] text-sm leading-relaxed">
                             Un véritable{" "}
-                            <span className="font-semibold">
-                                parcours du combattant
-                            </span>{" "}
+                            <span className="font-semibold">parcours du combattant</span>{" "}
                             : fragmentation des sources de financement, opacité des
                             processus et manque d’accompagnement.
                         </p>
@@ -66,9 +65,7 @@ export default function DefiSection() {
                     <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105">
                         <div className="flex items-center gap-3 mb-4">
                             <Briefcase size={28} />
-                            <h3 className="text-xl font-bold">
-                                Le Défi des Investisseurs
-                            </h3>
+                            <h3 className="text-xl font-bold">Le Défi des Investisseurs</h3>
                         </div>
                         <p className="text-[#5D3010] text-sm leading-relaxed">
                             Difficile d’identifier des{" "}

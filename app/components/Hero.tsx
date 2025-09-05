@@ -157,9 +157,9 @@ export default function Hero() {
         .hero-bg {
           background-image: linear-gradient(
               to right,
-              rgba(0,0,0, 0.7) 0%,
-              rgba(0,0,0, 0.5) 50%,
-              rgba(0,0,0, 0.7) 100%
+              rgba(0,0,0, 0.5) 0%,
+              rgba(0,0,0, 0.3) 50%,
+              rgba(0,0,0, 0.5) 100%
             ),
             url("/hero-bg.jpg");
           background-size: cover;
