@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function ParrainSection() {
     return (
         <section className="relative py-24 px-6 bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/images/bg-parrain.jpg')" }}>
@@ -21,10 +23,12 @@ export default function ParrainSection() {
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     {/* Photo ou avatar du parrain */}
                     <div className="flex-shrink-0 w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-[#5D3010]">
-                        <img
+                        <Image
                             src="/ndiaga_sarr.jpg" // Remplace par le vrai chemin
                             alt="Ndiaga SARR"
                             className="w-full h-full object-cover"
+                            width={256}
+                            height={256}
                         />
                     </div>
 

@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Invite {
+  id           String    @id @default(cuid())
+  nom          String
+  prenom       String
+  email        String    @unique
+  telephone    String?
+  type         String    @default("STANDARD") // STANDARD, VIP, PRESSE, STAFF
+  statut       String    @default("NON_VERIFIE") // NON_VERIFIE, VERIFIE, PRESENT
+  qrCodeUrl    String
+  dateCreation DateTime  @default(now())
+  dateEntree   DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  phone     String
+  role      Role
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum Role {
+  ADMIN
+  SUDO
+  SIMPLE
+}

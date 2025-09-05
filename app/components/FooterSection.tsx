@@ -1,6 +1,6 @@
 "use client";
 
-import { Facebook, Twitter, Linkedin, Instagram, Mail, MapPin, Globe } from "lucide-react";
+import { Facebook, Linkedin, Instagram, Mail, MapPin, Globe } from "lucide-react";
 import Image from "next/image";
 
 export default function FooterSection() {
