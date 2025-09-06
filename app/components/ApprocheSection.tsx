@@ -28,7 +28,7 @@ export default function ApprocheSection() {
     ];
 
     return (
-        <section className="relative py-20 px-6  bg-[#F5DEC4]/80 text-[#5D3010]">
+        <section className="relative py-20 px-6  bg-[#5B2E0C14]/80 text-[#5D3010]">
             <div className="container mx-auto max-w-6xl">
                 {/* Titre */}
                 <motion.h2

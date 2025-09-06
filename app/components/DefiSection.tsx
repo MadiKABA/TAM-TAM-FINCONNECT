@@ -5,33 +5,26 @@ import { AlertTriangle, Users, Briefcase } from "lucide-react";
 export default function DefiSection() {
     return (
         <section
-            className="relative py-20 px-6 text-[#5D3010] overflow-hidden"
-            style={{
-                backgroundImage: "url('/hero-bg.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-            }}
+            className="relative py-20 px-6 text-[#5D3010] overflow-hidden bg-[##5B2E0C14]"
+           
         >
-            {/* Filtre semi-transparent cohérent */}
-            <div className="absolute inset-0 bg-[#F5DEC4]/70 backdrop-blur-sm"></div>
-
+           
             {/* Motifs subtils animés */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute w-72 h-72 bg-white/10 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
-                <div className="absolute w-48 h-48 bg-white/10 rounded-full bottom-[-40px] right-[-30px] animate-ping-slower"></div>
+                <div className="absolute w-72 h-72 bg-[#5D3010]/5 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
+                <div className="absolute w-48 h-48 bg-[#5D3010]/5 rounded-full bottom-[-40px] right-[-30px] animate-ping-slower"></div>
             </div>
 
             <div className="container relative z-10 mx-auto max-w-6xl">
                 {/* Titre */}
                 <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-16 text-[#5D3010]">
-                    Un Océan de Talents, un Désert de Capital
+                    Un vivier de Talents, un Capital encore inexploré
                 </h2>
 
                 {/* Narration sous forme de 3 colonnes */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     {/* Bloc 1 */}
-                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105">
+                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105 border-2 border-[#5D3010]/25">
                         <div className="flex items-center gap-3 mb-4">
                             <Users size={28} />
                             <h3 className="text-xl font-bold">Une Demande Explosive</h3>
@@ -46,7 +39,7 @@ export default function DefiSection() {
                     </div>
 
                     {/* Bloc 2 */}
-                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105">
+                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale- border-2 border-[#5D3010]/25">
                         <div className="flex items-center gap-3 mb-4">
                             <AlertTriangle size={28} />
                             <h3 className="text-xl font-bold">
@@ -62,7 +55,7 @@ export default function DefiSection() {
                     </div>
 
                     {/* Bloc 3 */}
-                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105">
+                    <div className="p-6 rounded-2xl bg-white shadow-md transition hover:scale-105 border-2 border-[#5D3010]/25">
                         <div className="flex items-center gap-3 mb-4">
                             <Briefcase size={28} />
                             <h3 className="text-xl font-bold">Le Défi des Investisseurs</h3>

@@ -10,7 +10,7 @@ export default function SolutionSection() {
     );
 
     return (
-        <section className="relative py-20 px-6 bg-[#F5DEC4] text-[#4B2C20] overflow-hidden">
+        <section className="relative py-20 px-6 bg-[#F9F9F9] text-[#4B2C20] overflow-hidden">
             <div className="container mx-auto max-w-6xl">
                 {/* Titre */}
                 <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-10">
@@ -33,7 +33,7 @@ export default function SolutionSection() {
                 <div className="overflow-hidden rounded-2xl border border-[#4B2C20]/40 shadow-xl mb-16 bg-white/80 backdrop-blur-sm">
                     <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#4B2C20]/30">
                         {/* Entrepreneurs */}
-                        <div className="p-8 hover:bg-[#F0E0C8] transition">
+                        <div className="p-8 hover:bg-[#F9F9F9] transition">
                             <h3 className="flex items-center gap-2 text-xl font-bold mb-6 text-[#4B2C20]">
                                 <Users className="text-[#4B2C20]" /> Pour les Entrepreneurs
                             </h3>
@@ -47,7 +47,7 @@ export default function SolutionSection() {
                         </div>
 
                         {/* Investisseurs */}
-                        <div className="p-8 hover:bg-[#F0E0C8] transition">
+                        <div className="p-8 hover:bg-[#F9F9F9] transition">
                             <h3 className="flex items-center gap-2 text-xl font-bold mb-6 text-[#4B2C20]">
                                 <Briefcase className="text-[#4B2C20]" /> Pour les Investisseurs
                             </h3>

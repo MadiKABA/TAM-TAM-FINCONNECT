@@ -53,13 +53,15 @@ export default function Hero() {
                     </p>
                     <div className="flex flex-col md:flex-row gap-4">
                         <a
-                            href="#inscription"
+                            href="https://www.eventbrite.com/e/billets-lancement-tam-tam-finconnect-1601388448959"
+                            target="_blank"
                             className="bg-[#4B2C20] hover:bg-[#4B2C20] text-white px-6 py-3 rounded-xl font-semibold transition"
                         >
                             Réserver ma place (Entrepreneur)
                         </a>
                         <a
-                            href="#inscription"
+                            href="https://www.eventbrite.com/e/billets-lancement-tam-tam-finconnect-1601388448959"
+                            target="_blank"
                             className="border border-[#F5E6D3] text-[#F5E6D3] hover:bg-[#4B2C20] hover:text-white px-6 py-3 rounded-xl font-semibold transition"
                         >
                             Réserver ma place (Investisseur)

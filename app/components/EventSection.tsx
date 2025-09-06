@@ -52,7 +52,7 @@ export default function EvenementSection() {
     ];
 
     return (
-        <section className="relative py-24 px-6 bg-[#F5DEC4] text-[#5D3010] overflow-hidden">
+        <section className="relative py-24 px-6 bg-[#5B2E0C14] text-[#5D3010] overflow-hidden">
             {/* Motifs animés plus légers */}
             <svg
                 className="absolute inset-0 w-full h-full pointer-events-none"
@@ -108,7 +108,7 @@ export default function EvenementSection() {
 
                 <div className="flex justify-center mt-16">
                     <a
-                        href="/programme.pdf"
+                        href="/Programme-tamtam.pdf"
                         download
                         className="bg-[#5D3010] text-[#FFF5F5] px-6 py-3 rounded-xl font-semibold transition shadow-lg hover:shadow-[#5D3010]/50 animate-pulse"
                     >

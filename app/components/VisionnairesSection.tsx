@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 
 export default function VisionnairesSection() {
     return (
-        <section className="relative py-20 px-6 bg-[#F5DEC4] text-[#5D3010] overflow-hidden">
+        <section className="relative py-20 px-6 bg-[##5B2E0C14] text-[#5D3010] overflow-hidden">
             {/* Motifs subtils animés */}
             <div className="absolute inset-0">
-                <div className="absolute w-72 h-72 bg-white/10 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
-                <div className="absolute w-48 h-48 bg-white/10 rounded-full bottom-[-40px] right-[-30px] animate-ping-slower"></div>
+                <div className="absolute w-72 h-72  bg-[#5D3010]/5 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
+                <div className="absolute w-48 h-48  bg-[#5D3010]/5 rounded-full bottom-[-40px] right-[-30px] animate-ping-slower"></div>
                 <div className="absolute w-96 h-96 border border-white/5 rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-spin-slow"></div>
             </div>
 
