@@ -6,9 +6,9 @@ export default function DefiSection() {
     return (
         <section
             className="relative py-20 px-6 text-[#5D3010] overflow-hidden bg-[##5B2E0C14]"
-           
+
         >
-           
+
             {/* Motifs subtils animés */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute w-72 h-72 bg-[#5D3010]/5 rounded-full top-[-50px] left-[-50px] animate-ping-slow"></div>
@@ -61,11 +61,7 @@ export default function DefiSection() {
                             <h3 className="text-xl font-bold">Le Défi des Investisseurs</h3>
                         </div>
                         <p className="text-[#5D3010] text-sm leading-relaxed">
-                            Difficile d’identifier des{" "}
-                            <span className="font-semibold">
-                                projets sûrs, bancables et diversifiés
-                            </span>{" "}
-                            dans un flux massif de demandes.
+                            Il est complexe de sélectionner des projets viables, bancables et diversifiés au sein d’un volume important de sollicitations
                         </p>
                     </div>
                 </div>

@@ -10,22 +10,22 @@ export default function EvenementSection() {
             desc: "Remise des badges, découverte de l’espace, networking libre.",
         },
         {
-            time: "09h30 – 10h30",
-            title: "Discours d’ouverture",
+            time: "09h30 – 10h00",
+            title: "Cérémonie d’ouverture",
             desc: "Allocutions des organisateurs & partenaires institutionnels.",
         },
         {
-            time: "10h30 – 11h00",
+            time: "10h00 – 10h30",
             title: "Démonstration de la plateforme",
             desc: "Présentation en direct des fonctionnalités de TAM TAM FinConnect.",
         },
         {
-            time: "11h00 – 11h30",
+            time: "10h30 – 11h00",
             title: "Témoignages d’entrepreneurs",
             desc: "Partages d’expériences sur l’accès au financement et les défis rencontrés.",
         },
         {
-            time: "11h30 – 13h30",
+            time: "11h00 – 13h00",
             title: "Ateliers thématiques & Networking",
             desc: (
                 <ul className="list-disc list-inside text-[#5D3010] text-sm mt-2 space-y-1">

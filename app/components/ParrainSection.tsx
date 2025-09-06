@@ -38,7 +38,7 @@ export default function ParrainSection() {
                 {/* Titre */}
                 <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-16 text-[#5D3010]">
                     Sous le Haut Parrainage de{" "}
-                    <span className="text-[#8B5E3C]">Ndiaga SARR</span>
+                    <span className="text-[#8B5E3C]">Mr Ndiaga SARR</span>
                 </h2>
 
                 <div className="flex flex-col md:flex-row items-center gap-12">
