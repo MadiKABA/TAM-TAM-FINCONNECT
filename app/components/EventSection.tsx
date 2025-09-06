@@ -5,27 +5,27 @@ import { Calendar, Clock, MapPin } from "lucide-react";
 export default function EvenementSection() {
     const timeline = [
         {
-            time: "09h00 – 09h30",
+            time: "08h00 – 09h30",
             title: "Accueil & Inscriptions",
             desc: "Remise des badges, découverte de l’espace, networking libre.",
         },
         {
-            time: "09h30 – 10h00",
+            time: "09h30 – 10h30",
             title: "Cérémonie d’ouverture",
             desc: "Allocutions des organisateurs & partenaires institutionnels.",
         },
         {
-            time: "10h00 – 10h30",
+            time: "10h30 – 11h30",
             title: "Démonstration de la plateforme",
             desc: "Présentation en direct des fonctionnalités de TAM TAM FinConnect.",
         },
         {
-            time: "10h30 – 11h00",
+            time: "11h30 – 12h00",
             title: "Témoignages d’entrepreneurs",
             desc: "Partages d’expériences sur l’accès au financement et les défis rencontrés.",
         },
         {
-            time: "11h00 – 13h00",
+            time: "12h00 – 13h30",
             title: "Ateliers thématiques & Networking",
             desc: (
                 <ul className="list-disc list-inside text-[#5D3010] text-sm mt-2 space-y-1">
@@ -45,7 +45,7 @@ export default function EvenementSection() {
             ),
         },
         {
-            time: "13h00 – 14h30",
+            time: "13h30 – 14h30",
             title: "Clôture & Cocktail",
             desc: "Mot de clôture, remerciements et cocktail convivial pour réseauter.",
         },

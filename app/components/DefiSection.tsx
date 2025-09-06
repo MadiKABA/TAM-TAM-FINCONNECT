@@ -43,7 +43,7 @@ export default function DefiSection() {
                         <div className="flex items-center gap-3 mb-4">
                             <AlertTriangle size={28} />
                             <h3 className="text-xl font-bold">
-                                La Frustration des Entrepreneurs
+                               Les Enjeux de l&apos;Entreprenariat
                             </h3>
                         </div>
                         <p className="text-[#5D3010] text-sm leading-relaxed">
